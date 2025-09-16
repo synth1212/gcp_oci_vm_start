@@ -27,34 +27,41 @@ Orcale Cloud Infrastructure [OCL]: <paste link>
 ![GCP running](images/gcp_running.png)
 
 - Stop: <State shows TERMINATED>
-![GCP terminated](images/gcp_terminated.png)
+![GCP terminated](images/gcp_stopped.png)
 
-### Delete
-- Delete instance and verify no disks/IPs remain
+### Terminate & Verify Cleanup
+- Terminate boot volume; verify cleanup
+
+- Terminate: 
+![GCP cleaned](images/gcp_terminated.png)
+- Cleanup Check 
 ![GCP cleaned](images/gcp_clean.png)
 
 ---
 
 ## Oracle Cloud (OCI)
 ### Create
-1. Compartment: <name>
-2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <smallest/free-eligible>
-4. Image: Ubuntu (or Oracle Linux)
-5. Public IP: ephemeral
-6. Boot volume: default minimal
+1. Compartment → Defult
+2. Networking → VCN with Internet Connectivity (defaults)
+3. Shape → Smallest/Free-Eligible
+4. Image → Ubuntu (or Oracle Linux)
+5. Public IP → Ephemeral
+6. Boot volume → Default Minimal
 
 ![OCI create](images/oci_create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
-- Stop: <state shows STOPPED>
-
 ![OCI running](images/oci_running.png)
+- Stop: <state shows STOPPED>
+![OCI running](images/oci_stopped.png)
 
 ### Terminate
-- Terminate and delete boot volume; verify cleanup
+- Terminate boot volume; verify cleanup
 
+- Terminate: 
+![OCI cleaned](images/oci_terminated.png)
+- Cleanup Check 
 ![OCI cleaned](images/oci_clean.png)
 
 ---
