@@ -1,7 +1,8 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom/Zoom: <paste link>
+Google Cloud Platform [GCP]: <paste link>
+Orcale Cloud Infrastructure [OCL]: <paste link>
 
 ## Prereqs
 - Cloud access to GCP and OCI
@@ -11,20 +12,20 @@ Loom/Zoom: <paste link>
 
 ## Google Cloud (GCP)
 ### Create
-1. Console → Compute Engine → Create instance
-2. Region/zone: <your choice>
-3. Machine type: <smallest available/free-eligible>
-4. Image: Ubuntu LTS
-5. Boot disk: default minimal
-6. Network: default VPC; ephemeral public IP
+1. Console → Compute Engine → Create Instance
+2. Region/Zone → Your Choice
+3. Machine Type → Smallest Available/Free-Eligible
+4. Image → Ubuntu LTS
+5. Boot Disk → Default Minimal
+6. Network → Default VPC; Ephemeral Public IP
 
 ![GCP create](images/gcp_create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
-- Stop: <state shows TERMINATED/STOPPED>
-
 ![GCP running](images/gcp_running.png)
+- Stop: <state shows TERMINATED/STOPPED>
+![GCP terminated](images/gcp_terminated.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
