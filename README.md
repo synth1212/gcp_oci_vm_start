@@ -1,7 +1,8 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Google Cloud Platform [GCP]: <paste link>
+Google Cloud Platform [GCP]: [Introduction Video To Create Virtual Machine](https://drive.google.com/file/d/1Ta3cMSXcutVz39Frd7cqVK_vkcEPIdvW/view?usp=sharing)
+
 Orcale Cloud Infrastructure [OCL]: <paste link>
 
 ## Prereqs
@@ -22,14 +23,14 @@ Orcale Cloud Infrastructure [OCL]: <paste link>
 ![GCP create](images/gcp_create.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
+- Start: <State shows RUNNING>
 ![GCP running](images/gcp_running.png)
-- Stop: <state shows TERMINATED/STOPPED>
+
+- Stop: <State shows TERMINATED>
 ![GCP terminated](images/gcp_terminated.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
-
 ![GCP cleaned](images/gcp_clean.png)
 
 ---
